@@ -1,3 +1,5 @@
+import Cart from "./cart"
+import img from "../image/iron.jpeg"
 const HomeThird = () => {
     return (
         <>
@@ -22,8 +24,63 @@ const HomeThird = () => {
 
 
                     </div>
+                    <br /><br /><br /><br />
                     <div className="facilities_images">
-
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        <Cart
+                            link="/"
+                            image={img}
+                            heading="sarthak sarthal sathak"
+                            context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fugit. Molestiae, officia nisi, aspernatur debitis ea magnam est architecto sint "
+                        />
+                        
                     </div>
                 </div>
             </div>

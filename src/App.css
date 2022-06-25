@@ -182,11 +182,14 @@ header.sticky {
         width: 100%;
         display: flex;
         justify-content: center;
+        background-color: rgb(224, 224, 224);
 }
 .facilities {
     display:flex ;
     align-items: center;
     width: 75%;
+    flex-direction: column;
+    margin-top: 50px;
 
 
 }
@@ -211,4 +214,38 @@ header.sticky {
         font-weight: 100;
         font-family: 'Open Sans', sans-serif;
         line-height: 1.7rem;
+}
+.block_cart_outer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px 10px 0 0;
+    margin: 0  0 50px 0;
+
+
+}
+.cart_image_block{
+    width: 100%;
+}
+.cart_image_block img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.facilities_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.cart_content_block{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.cart_content_block h3{
+    margin-bottom: 10px;
 }

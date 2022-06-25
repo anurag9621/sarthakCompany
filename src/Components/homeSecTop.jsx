@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import {  Pagination, Mousewheel, Keyboard } from "swiper";
 const HomeSecTop = () => {
     SwiperCore.use([Autoplay]);
 
