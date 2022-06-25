@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right_one_burger_menu {
+    display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.left_one_logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.left_one_logo a {
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+}
+
+.center_one_menu {
+    width: 60%;
+    height: 100%;
+}
+
+.center_one_menu ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.center_one_menu ul li a {
+    color: white;
+}
+
+.top_home_out_box {
+    width: 100%;
+    height: 600px;
+    background-image: url(./image/iron.jpeg);
+    background-size: cover;
+    color: rgba(238, 238, 238, .8);
+    display: flex;
+}
+
+.top_home_out_box p {
+    width: 40%;
+    line-height: 1.7rem;
+    margin-top: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-left: 10%;
+
+}
+
+.back_color_for {
+    background-color: rgba(0, 0, 0, 0.401);
+}
+
+header.sticky {
+    position: fixed;
+    background-color: rgb(200, 134, 10);
+    height: 5rem;
+    box-shadow: 0 0 5px 0 black;
 }
