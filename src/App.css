@@ -36,6 +36,7 @@ header {
     position: absolute;
     top: 0;
     background-color: transparent;
+    z-index: 5;
 }
 
 .center_one_menu {
@@ -176,4 +177,38 @@ header.sticky {
 
 .box_of_slider {
     margin: 10% 0;
+}
+.homeThird_OuterBox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+.facilities {
+    display:flex ;
+    align-items: center;
+    width: 75%;
+
+
+}
+.one {
+    width: .4rem;
+    height: 1.7rem;
+    background-color: black;
+    margin: 0.1rem 0;
+    display: block;
+}
+
+.two {
+    width: .4rem;
+    height: 1.7rem;
+    background-color: rgb(255, 153, 0);
+    margin: 0.1rem 0;
+    display: block;
+}
+.cont_third_one{
+    margin-top: 2rem;
+    font-size: 1rem;
+        font-weight: 100;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.7rem;
 }

@@ -10,7 +10,6 @@ import Features from "./Pages/Features";
 function App() {
   return (
     <>
-      <Header />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About/>} />
@@ -19,6 +18,8 @@ function App() {
         <Route exact path="/products" element={<Products />} />
         <Route exact path="/features" element={<Features />} />
       </Routes>
+      <Header />
+
     </>
   );
 }
