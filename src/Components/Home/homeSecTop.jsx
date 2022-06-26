@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import img from "../image/iron.jpeg"
+import img from "../../image/iron.jpeg"
 // Import Swiper styles
 
 import SwiperCore, { Autoplay } from 'swiper';

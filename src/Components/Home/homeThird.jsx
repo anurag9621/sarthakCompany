@@ -1,5 +1,5 @@
 import Cart from "./cart"
-import img from "../image/iron.jpeg"
+import img from "../../image/iron.jpeg"
 const HomeThird = () => {
     return (
         <>
