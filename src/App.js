@@ -1,12 +1,12 @@
 import "./app.css"
 import Home from './Pages/Home';
 import { Route, Routes } from "react-router-dom";
-import About from './Pages/about';
-import Header from "./Components/Header";
+import About from './Pages/About';
 import Location from "./Pages/Location";
 import Contact from "./Pages/Contact";
 import Products from "./Pages/Products";
 import Features from "./Pages/Features";
+import Header from "./Components/Header";
 function App() {
   return (
     <>
@@ -18,8 +18,7 @@ function App() {
         <Route exact path="/products" element={<Products />} />
         <Route exact path="/features" element={<Features />} />
       </Routes>
-      <Header />
-
+      <Header/>
     </>
   );
 }

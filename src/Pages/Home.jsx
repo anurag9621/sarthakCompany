@@ -10,6 +10,8 @@ const Home=()=>{
        <HomeSecTop/>
        <HomeThird/>
        <Footer/>
+       
+
         </>
     )
 }
