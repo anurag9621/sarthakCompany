@@ -81,7 +81,7 @@ header {
 
 header.sticky {
     position: fixed;
-        background-color: rgb(255, 153, 0);
+    background-color: rgb(255, 153, 0);
     height: 5rem;
     box-shadow: 0 0 5px 0 black;
 }
@@ -178,14 +178,16 @@ header.sticky {
 .box_of_slider {
     margin: 10% 0;
 }
-.homeThird_OuterBox{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        background-color: rgb(224, 224, 224);
+
+.homeThird_OuterBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
 }
+
 .facilities {
-    display:flex ;
+    display: flex;
     align-items: center;
     width: 75%;
     flex-direction: column;
@@ -193,6 +195,7 @@ header.sticky {
 
 
 }
+
 .one {
     width: .4rem;
     height: 1.7rem;
@@ -208,72 +211,83 @@ header.sticky {
     margin: 0.1rem 0;
     display: block;
 }
-.cont_third_one{
+
+.cont_third_one {
     margin-top: 2rem;
     font-size: 1rem;
-        font-weight: 100;
-        font-family: 'Open Sans', sans-serif;
-        line-height: 1.7rem;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
 }
-.block_cart_outer{
+
+.block_cart_outer {
     width: 30%;
     display: flex;
     flex-direction: column;
     background-color: rgb(250, 250, 250);
     border-radius: 10px 10px 0 0;
-    margin: 0  0 50px 0;
+    margin: 0 0 50px 0;
     font-family: 'Open Sans', sans-serif;
 
 
 }
-.cart_image_block{
+
+.cart_image_block {
     width: 100%;
 }
-.cart_image_block img{
+
+.cart_image_block img {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
-.facilities_images{
+.facilities_images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
 }
-.cart_content_block{
+
+.cart_content_block {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.5rem;
 }
-.cart_content_block h3{
+
+.cart_content_block h3 {
     margin-bottom: 10px;
 }
-.footer_outer_box{
+
+.footer_outer_box {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 250px;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
-.footer_inner_block{
+
+.footer_inner_block {
     width: 75%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-.contact_and_company_copyright{
+
+.contact_and_company_copyright {
     height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
-.contact_and_company_copyright p{
-font-size: .9rem;
+
+.contact_and_company_copyright p {
+    font-size: .9rem;
 }
-button{
+
+button {
     width: 200px;
     height: 60px;
     background-color: rgb(255, 153, 0);
@@ -283,19 +297,23 @@ button{
     font-size: 1.5rem;
     color: #fff;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(12, 14, 19);
 }
-.options_of_pages ul{
+
+.options_of_pages ul {
     display: flex;
     flex-direction: column;
     line-height: 1.7rem;
 }
-.options_of_pages ul li a:hover{
-    border-bottom:black solid 2px ;
+
+.options_of_pages ul li a:hover {
+    border-bottom: black solid 2px;
     color: rgb(12, 14, 19);
 }
-.about_Top_outrt_box{
+
+.about_Top_outrt_box {
     width: 100%;
     background-image: url(./image//about_banner.jpeg);
     background-size: cover;
@@ -304,17 +322,176 @@ button:hover{
     align-items: center;
     justify-content: space-evenly;
 }
-.about_left_top{
+
+.about_left_top {
     width: 35%;
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
-        font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
-.about_left_top p{
+
+.about_left_top p {
     font-size: 1.2rem;
 }
-.about_left_top h1{
+
+.about_left_top h1 {
     font-size: 2.5rem;
+}
+
+.AboutSecondOneContext {
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Open Sans',
+        sans-serif;
+    line-height: 1.7rem;
+}
+
+.aboutTopSecondLeftOne {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.aboutSecondOneCenter {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_top_second_outerBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.aboutSecondRightOne {
+    width: 50%;
+
+}
+
+.aboutSecondRightOne img {
+    width: 100%;
+}
+
+.bigbox {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 100px;
+    font-family: 'Open Sans',
+        sans-serif;
+
+}
+
+.integritybox {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 34, 1) 35%, rgba(0, 255, 113, 1) 100%);
+    font-size: 80px;
+    color: aliceblue;
+    padding-left: 100px;
+
+}
+
+.excellence {
+    width: 100%;
+    height: 180px;
+    background-image: url(./image/banner-business-background-webpage.png);
+    background-size: cover;
+    color: #fff;
+    font-size: 80px;
+    padding-left: 100px;
+}
+
+.unity {
+    width: 100%;
+    height: 180px;
+    background-image: url(./image/banner-imgaesunity.png);
+    background-size: cover;
+    color: #fff;
+    font-size: 80px;
+    padding-left: 100px;
+}
+
+.responsibility {
+    width: 100%;
+    height: 180px;
+    background-image: url(./image/banner-imgaes-responsibility.png);
+    background-size: cover;
+    color: #fff;
+    font-size: 80px;
+    padding-left: 100px;
+}
+
+.about_top_outerfourth_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_second {
+    width: 75%;
+
+}
+
+.AboutFourthContext {
+
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Open Sans',
+        sans-serif;
+    line-height: 1.7rem;
+}
+
+.about_top_outerfourth_box {
+    margin-top: 80px;
+}
+
+.outer_box {
+    display: flex;
+    width: 100%;
+
+}
+
+.our_people_context {
+    width: 40%;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.our_people_img {
+    display: flex;
+    width: 50%;
+
+}
+
+.our_people_header {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.our_people_img img {
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgb(85, 85, 85);
+}
+
+.outerbox {
+    margin-top: 50px;
+}
+.our_people_header:nth-child(even){
+display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
 }
