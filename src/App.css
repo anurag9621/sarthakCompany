@@ -489,9 +489,59 @@ button:hover {
 .outerbox {
     margin-top: 50px;
 }
-.our_people_header:nth-child(even){
-display: flex;
+
+.our_people_header:nth-child(even) {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
+}
+
+.ourStoryOuterBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.ourStoryInnerBox {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.storyContext {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: -12px;
+
+}
+
+.round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+}
+
+.line {
+    display: block;
+    width: 3px;
+    height: 50%;
+    background-color: rgb(255, 153, 0);
+
+   
+}
+.ourStoryCenterFor{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
 }
