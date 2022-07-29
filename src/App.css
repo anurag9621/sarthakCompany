@@ -574,3 +574,19 @@ button:hover {
 p{
     width: 60%;
 }
+.outer_boxproduct_one{
+    width: 100%;
+    display: flex;
+        justify-content: center;
+
+}
+.product_one_one{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+
+.content-produnt-heading{
+
+}
