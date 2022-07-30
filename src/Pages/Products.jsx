@@ -1,9 +1,10 @@
 import TopBar from "../Components/Products/topBar";
-
+import Footers from "../Components/footer"
 const Products=()=>{
     return (
       <>
-        <TopBar headTop ="Anurag"/>
+        <TopBar headTop="Anurag" />
+        <Footers/>
       </>
     );
 }
